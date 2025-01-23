@@ -21,7 +21,9 @@ Ensure you have:
 ### 2️⃣ Install Dependencies  
 Run the following command to install the required libraries:  
 ```bash
+
 pip install discord openai google-generativeai python-dotenv
+```
 
 ### 3️⃣ Environment Variables
 Create a .env file in the project directory and add:
@@ -30,7 +32,10 @@ GOOGLE_API_KEY=your_google_api_key
 
 ### 4️⃣ Run the Bot
 Execute the script with:
+```bash
+
 python main.py
+```
 
 🛠️ How It Works
 1. Listens to messages on a Discord server
@@ -45,4 +50,3 @@ Feel free to modify the bot’s logic to improve responses.
 
 📜 License
 This project is open-source under the MIT License.
-
